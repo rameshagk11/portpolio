@@ -44,11 +44,15 @@
   }
   
   .logo{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    
   }
   
+  nav img:hover{
+    border-color: #ff004f;
+  }
   
   nav ul li{
     display: inline-block;
@@ -89,34 +93,34 @@
   
    } 
   
-  .header-text h1{
+  .header-text h1 {
   /*   text-transform: uppercase; */
     font-size: 30px;
     margin-top: 20px;
     font-weight: bold;
   /*    */
     font: 80px "Oswald", sans-serif;
-        letter-spacing: 0;
-        padding: .25em 0 .325em;
-        display: block;
-        margin: 0 auto;
-        text-shadow: 0 0 40px rgba(255,255,255,.5);
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 40px rgba(255,255,255,.5);
   
   /* Clip Background Image */
   
-        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
-        -webkit-background-clip: text;
-        background-clip: text;
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
   
   /* Animate Background Image */
   
-        -webkit-text-fill-color: transparent;
-        -webkit-animation: aitf 80s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
   
   /* Activate hardware acceleration for smoother animations */
   
-        -webkit-transform: translate3d(0,0,0);
-        -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
   
   }
   
