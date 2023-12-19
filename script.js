@@ -1,5 +1,5 @@
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
+let tablinks = document.getElementsByClassName("tab-links");
+let tabcontents = document.getElementsByClassName("tab-contents");
 
 function opentab(tabname) {
   for (tablink of tablinks) {
@@ -13,7 +13,7 @@ function opentab(tabname) {
 }
 
 // ------------small screen nav action script 
-var sidemenu = document.getElementById("sidemenu");
+let sidemenu = document.getElementById("sidemenu");
 
 function openmenu() {
   sidemenu.style.right = "0";

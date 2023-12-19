@@ -222,6 +222,18 @@
   .tab-contents.active-tab{
     display: block;
   }
+
+  /* Skills */
+  .skills-list ul li span{
+    color: hsl(0, 100%, 70%);
+    font-size: 20px;
+  }
+  .skills-list ul li {
+    margin-bottom: 15px;
+  }
+  .skills-list ul li p{
+    margin-top: 10px;
+  }
   /* --------------services--------------------- */
   
   #services{
